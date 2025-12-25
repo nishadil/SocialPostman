@@ -1,0 +1,31 @@
+{
+    "name": "nishadil/socialpostman",
+    "description": "Open-source PHP library to post content to social media platforms asynchronously.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nishadil.Dev",
+            "email": "opensource@nishadil.dev"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nishadil\\SocialPostman\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nishadil\\SocialPostman\\Laravel\\SocialPostmanServiceProvider"
+            ],
+            "aliases": {
+                "SocialPostman": "Nishadil\\SocialPostman\\Laravel\\Facades\\SocialPostman"
+            }
+        }
+    }
+}
