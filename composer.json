@@ -1,6 +1,6 @@
 {
     "name": "nishadil/socialpostman",
-    "description": "Open-source PHP library to post content to social media platforms asynchronously.",
+    "description": "SocialPostman is a PHP library to publish posts to social media platforms. (Facebook, Instagram, LinkedIn, Twitter/X) with background processing and retry support.",
     "type": "library",
     "license": "MIT",
     "authors": [
